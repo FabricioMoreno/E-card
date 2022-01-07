@@ -1,0 +1,15 @@
+id,nombre,facultad,carrera,matricula,fecha_nacimiento,firma,colegio,gr_etnico,cedula,rango,regular,promedio,sancionado,materias_ap
+ewrn30,Barack Obama,FIEC,Computación,202000010,AGO-04-1961,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Barack_Obama.png,Interamericano CEBI,Afroecuatoriano,987654321,3.5,True,7.52,False,9
+kjds8s,Cole Sprouse,FIMCP,Mecatrónica,201900020,AGO-04-1992,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Cole%20Sprouse.jpg,Boston,Mestizo,986543217,4.4,False,8.29,False,12
+lkdf0,Emma Watson,FCSH,Economía,201800030,SEP-30-1990,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Emma_Watson.png,Jean Piaget,No ha ingresado,985432176,2.4,True,7.01,False,20
+xbl29,Harry Styles,FADCOM,Diseño Gráfico,202000040,FEB-01-1964,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Harry_styles.png,Liceo Cristiano de Guayaquil,No ha ingresado,984321765,3.8,True,6.43,False,17
+laaf30,Leonardo Dicaprio,FICT,Biología,201900050,NOV-11-1974,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Leonardo%20Dicaprio.jpg,Inmaculada,Mestizo,1234567890,4.9,True,9.01,False,25
+vcls82,Mark Zuckerberg,FIEC,Computación,201700060,MAY-14-1984,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Mark_Zuckerberg.png,Gregoriano,Montubio,1245678903,4.8,False,8.08,False,42
+mwso41,Scarlet Johansson,FADCOM,Diseño de productos,202100070,NOV-22-1984,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Scarlett_Johansson.png,Liceo Los Andes,Mestizo,1256789034,3.7,False,7.89,False,4
+oicv102,Tom Holland,FIMCP,Mecatrónica,202000080,JUN-01-1996,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/tom%20holland.jpg,Liceo Los Andes,Mestizo,1098765432,2.3,True,7.21,False,14
+cvkf23,Dua Lipa,FIMCP,Alimentos,201900090,AGO-22-1995,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Dua%20lipa.png,Inmaculada,Blanco,1087654329,5,True,6.96,False,24
+oiu383h,Zendaya Maree,FCNM,Auditoría y Control de Gestión,201800000,SEP-01-1996,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Zendaya.png,Liceo Cristiano de Guayaquil,No ha ingresado,1076543298,4,True,8.23,False,32
+oxba110,Miranda Cosgrove,FCNM,Estadística,202100100,MAY-14-1993,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Miranda%20Cosgrove.jpg,Boston,Mestizo,1065432879,3.9,True,7.53,False,6
+hvd82f,Ariana Grande,FCSH,Economía,202100110,JUN-26-1993,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/Ariana_Grande_autograph.svg.png,Interamericano CEBI,Montubio,1054329876,3.8,False,,False,
+mzv01a,Will Smith,FIEC,Telemática,202000120,SEP-25-1968,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/1024px-Will_Smith's_signature.svg.png,Gregoriano,No ha ingresado,1290348756,4.2,True,8.22,True,11
+vdgy02t,Donald Trump,FCSH,Economía,202000130,JUN-14-1946,https://raw.githubusercontent.com/Sambek99/Pyweekend_Photos/main/Firmas/2560px-Donald_Trump_Signature.svg.png,Javier,Blanco,1001829303,3.1,False,8.01,False,13
