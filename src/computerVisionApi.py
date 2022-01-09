@@ -30,15 +30,19 @@ def getNameCelebrity(response):
   return name_celebrity
 
 def isJustFace(response):
+  cond_1 = ""
+  cond_2 = ""
+  PORTRAIT_MAX = 0.6
+
+  for tag_info in response["tags"]:
+    if tag_info["name"] == "portrait":
+      cond_1 = tag_info["confidence"] >= PORTRAIT_MAX
+
   for categorieInfo in response["categories"]:
     if categorieInfo["name"] == "people_portrait":
-      PORTRAIT_MAX = 0.6
-      if categorieInfo["score"] >= PORTRAIT_MAX:
-        return True
-      else:
-        return False
-
-  return False
+      cond_2 = categorieInfo["score"] >= PORTRAIT_MAX 
+        
+  return cond_1 or cond_2
 
 def isWearingHatOrCap(response):
   for tag_info in response["tags"]:

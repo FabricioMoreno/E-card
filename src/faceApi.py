@@ -9,7 +9,7 @@ def requestsFaceApi(api_key,img_url):
     "params": {
       "returnFaceId": "false",
       "returnFaceLandmarks": "false",
-      "returnFaceAttributes": "headPose, smile, facialHair, glasses, emotion, makeup, occlusion, accessories",
+      "returnFaceAttributes": "headPose, smile, facialHair, glasses, emotion, makeup, occlusion, accessories, gender",
       "recognitionModel": "recognition_01",
       "returnRecognitionModel": "false",
       "detectionModel": "detection_01",
@@ -49,6 +49,12 @@ def isSillyFace(response):
   neutral_face_value = response[0]["faceAttributes"]["emotion"]["neutral"]
   NEUTRAL_FACE_MAX_VALUE = 0.7
   if neutral_face_value >= NEUTRAL_FACE_MAX_VALUE:
-    return True
+    return False
   
-  return False
+  return True
+
+def getGender(response):
+  if response[0]["faceAttributes"]["gender"] == "male":
+    return "male"
+  else:
+    return "female"
